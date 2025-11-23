@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amaan Siddiqui | Resume & Bio</title>
     <meta name="description" content="Professional Resume and Bio Data of Amaan Siddiqui">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="background-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-    </div>
+    <canvas id="bg-canvas"></canvas>
 
     <nav class="navbar">
         <div class="logo">AS.</div>
@@ -41,10 +41,7 @@
         <section id="home" class="hero-section">
             <div class="hero-content">
                 <div class="profile-img-container">
-                    
-                        
-                        <img src="pic1.jpg" alt="Amaan Siddiqui" class="profile-img">
-                    
+                    <img src="pic1.jpg" alt="Amaan Siddiqui" class="profile-img">
                 </div>
                 <h1 class="hero-title">Hello, I'm <span class="highlight">Amaan Siddiqui</span></h1>
                 <p class="hero-subtitle">Data Scientist & Data Enthusiast</p>
@@ -105,7 +102,9 @@
                         <i class="fas fa-envelope"></i>
                         <div class="bio-details">
                             <h3>Email</h3>
-                            <p><a href="mailto:amaansiddiqui014@gmail.com" id="bioEmail">amaansiddiqui014@gmail.com</a> <button id="copyEmail" class="small-btn" title="Copy email"><i class="fas fa-copy"></i></button></p>
+                            <p><a href="mailto:amaansiddiqui014@gmail.com" id="bioEmail">amaansiddiqui014@gmail.com</a>
+                                <button id="copyEmail" class="small-btn" title="Copy email"><i
+                                        class="fas fa-copy"></i></button></p>
                         </div>
                     </div>
                     <div class="bio-item">
@@ -119,7 +118,8 @@
                         <i class="fab fa-linkedin"></i>
                         <div class="bio-details">
                             <h3>LinkedIn</h3>
-                            <p><a href="https://www.linkedin.com/in/amaan-siddiqui-856a2a290/" target="_blank">/amaan-siddiqui-856a2a290</a></p>
+                            <p><a href="https://www.linkedin.com/in/amaan-siddiqui-856a2a290/"
+                                    target="_blank">/amaan-siddiqui-856a2a290</a></p>
                         </div>
                     </div>
                 </div>
@@ -128,12 +128,14 @@
 
         <section id="resume" class="section resume-section">
             <h2 class="section-title">Resume</h2>
-            
+
             <div class="resume-actions">
                 <button id="openResume" class="btn btn-primary">Open PDF</button>
-                <a id="downloadResume" class="btn btn-secondary" href="assets/amaan_resume.pdf" download>Download PDF</a>
+                <a id="downloadResume" class="btn btn-secondary" href="assets/amaan_resume.pdf" download>Download
+                    PDF</a>
                 <button id="printResume" class="btn btn-secondary">Print</button>
-                <label class="resume-note">If the PDF doesn't load, put your resume at <code>assets/amaan_resume.pdf</code></label>
+                <label class="resume-note">If the PDF doesn't load, put your resume at
+                    <code>assets/amaan_resume.pdf</code></label>
             </div>
 
             <div id="resumeViewer" class="glass-card resume-viewer" style="display:none;">
@@ -144,36 +146,39 @@
                 <div class="resume-column">
                     <h3 class="column-title"><i class="fas fa-briefcase"></i> Experience</h3>
                     <div class="timeline">
-                            <div class="timeline-item glass-card">
-                                <span class="date">May 2023 - Present</span>
-                                <h4>Freelance Data Scientist</h4>
-                                <p class="company">Self-Employed — Bengaluru, India</p>
-                                <p class="description">Designed and implemented machine learning models and performed end-to-end data analysis — data cleaning, preprocessing, visualization, and insight generation using Python (Pandas, Matplotlib, Seaborn).</p>
-                            </div>
-                            <div class="timeline-item glass-card">
-                                <span class="date">2022 - 2023</span>
-                                <h4>Personal & Open Source Projects</h4>
-                                <p class="company">Various</p>
-                                <p class="description">Built time-series forecasting and image-classification projects using PyTorch, LSTM models, and data pipelines; published code on GitHub.</p>
-                            </div>
+                        <div class="timeline-item glass-card">
+                            <span class="date">May 2023 - Present</span>
+                            <h4>Freelance Data Scientist</h4>
+                            <p class="company">Self-Employed — Bengaluru, India</p>
+                            <p class="description">Designed and implemented machine learning models and performed
+                                end-to-end data analysis — data cleaning, preprocessing, visualization, and insight
+                                generation using Python (Pandas, Matplotlib, Seaborn).</p>
+                        </div>
+                        <div class="timeline-item glass-card">
+                            <span class="date">2022 - 2023</span>
+                            <h4>Personal & Open Source Projects</h4>
+                            <p class="company">Various</p>
+                            <p class="description">Built time-series forecasting and image-classification projects using
+                                PyTorch, LSTM models, and data pipelines; published code on GitHub.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="resume-column">
                     <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Education</h3>
                     <div class="timeline">
-                            <div class="timeline-item glass-card">
-                                <span class="date">Sept 2023 - Aug 2027</span>
-                                <h4>Don Bosco Institute of Technology</h4>
-                                <p class="company">Bengaluru, Karnataka</p>
-                                <p class="description">B.Tech — Computer Science & Engineering. Current CGPA: 8.25.</p>
-                            </div>
-                            <div class="timeline-item glass-card">
-                                <span class="date">Feb 2011 - Jul 2023</span>
-                                <h4>Bikaner Boys School</h4>
-                                <p class="company">Bikaner, Rajasthan</p>
-                                <p class="description">CBSE Class XII — Aggregate: 79%.</p>
-                            </div>
+                        <div class="timeline-item glass-card">
+                            <span class="date">Sept 2023 - Aug 2027</span>
+                            <h4>Don Bosco Institute of Technology</h4>
+                            <p class="company">Bengaluru, Karnataka</p>
+                            <p class="description">B.Tech — Computer Science & Engineering. Current CGPA: 8.25.</p>
+                        </div>
+                        <div class="timeline-item glass-card">
+                            <span class="date">Feb 2011 - Jul 2023</span>
+                            <h4>Bikaner Boys School</h4>
+                            <p class="company">Bikaner, Rajasthan</p>
+                            <p class="description">CBSE Class XII — Aggregate: 79%.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -213,15 +218,21 @@
                 <div class="projects-grid">
                     <div class="project-card glass-card">
                         <h4>Stocks Price Prediction</h4>
-                        <p>Time-series forecasting using LSTM. <a href="https://github.com/amaanbkn/Stocks-Price-Prediction" target="_blank">github.com/amaanbkn/Stocks-Price-Prediction</a></p>
+                        <p>Time-series forecasting using LSTM. <a
+                                href="https://github.com/amaanbkn/Stocks-Price-Prediction"
+                                target="_blank">github.com/amaanbkn/Stocks-Price-Prediction</a></p>
                     </div>
                     <div class="project-card glass-card">
                         <h4>Crop Classification Project</h4>
-                        <p>Image classification using CNN in PyTorch. <a href="https://github.com/amaanbkn/Crop-Classification-Project" target="_blank">github.com/amaanbkn/Crop-Classification-Project</a></p>
+                        <p>Image classification using CNN in PyTorch. <a
+                                href="https://github.com/amaanbkn/Crop-Classification-Project"
+                                target="_blank">github.com/amaanbkn/Crop-Classification-Project</a></p>
                     </div>
                     <div class="project-card glass-card">
                         <h4>Data-Pulse App</h4>
-                        <p>Streamlit app integrating multiple data science modules (forecasting, correlation, MBA). <a href="https://github.com/amaanbkn/Data-Pulse-app" target="_blank">github.com/amaanbkn/Data-Pulse-app</a></p>
+                        <p>Streamlit app integrating multiple data science modules (forecasting, correlation, MBA). <a
+                                href="https://github.com/amaanbkn/Data-Pulse-app"
+                                target="_blank">github.com/amaanbkn/Data-Pulse-app</a></p>
                     </div>
                 </div>
             </div>
@@ -252,7 +263,8 @@
     <footer>
         <p>&copy; 2025 Amaan Siddiqui. All rights reserved.</p>
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/amaan-siddiqui-856a2a290/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/amaan-siddiqui-856a2a290/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
             <a href="https://github.com/amaanbkn" target="_blank"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
@@ -260,7 +272,11 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    <script src="js/three-background.js"></script>
 </body>
+
 </html>
