@@ -29,6 +29,7 @@
         <ul class="nav-links">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#bio">Bio Data</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#resume">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -127,8 +128,52 @@
             </div>
         </section>
 
+        <section id="skills" class="section skills-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <div class="skill-card glass-card">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fas fa-database"></i>
+                        <span>Pandas / NumPy</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fas fa-rocket"></i>
+                        <span>PyTorch</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Scikit-learn / XGBoost</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Prophet / Time Series</span>
+                    </div>
+                    <div class="skill-card glass-card">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub / Streamlit</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="resume" class="section resume-section">
             <h2 class="section-title">Resume</h2>
+
+            <div class="resume-actions">
+                <button id="openResume" class="btn btn-primary">Open PDF</button>
+                <a id="downloadResume" class="btn btn-secondary" href="assets/amaan_resume.pdf" download>Download
+                    PDF</a>
+                <button id="printResume" class="btn btn-secondary">Print</button>
+            </div>
+
+            <div id="resumeViewer" class="glass-card resume-viewer" style="display:none;">
+                <iframe id="resumePdf" src="assets/amaan_resume.pdf" title="Resume PDF" frameborder="0"></iframe>
+            </div>
+
             <div class="resume-container">
                 <div class="resume-column">
                     <h3 class="column-title"><i class="fas fa-briefcase"></i> Experience</h3>
@@ -166,36 +211,6 @@
                             <p class="company">Bikaner, Rajasthan</p>
                             <p class="description">CBSE Class XII — Aggregate: 79%.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills-container">
-                <h3 class="column-title"><i class="fas fa-code"></i> Skills</h3>
-                <div class="skills-grid">
-                    <div class="skill-card glass-card">
-                        <i class="fab fa-python"></i>
-                        <span>Python</span>
-                    </div>
-                    <div class="skill-card glass-card">
-                        <i class="fas fa-database"></i>
-                        <span>Pandas / NumPy</span>
-                    </div>
-                    <div class="skill-card glass-card">
-                        <i class="fas fa-rocket"></i>
-                        <span>PyTorch</span>
-                    </div>
-                    <div class="skill-card glass-card">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Scikit-learn / XGBoost</span>
-                    </div>
-                    <div class="skill-card glass-card">
-                        <i class="fas fa-project-diagram"></i>
-                        <span>Prophet / Time Series</span>
-                    </div>
-                    <div class="skill-card glass-card">
-                        <i class="fab fa-github"></i>
-                        <span>GitHub / Streamlit</span>
                     </div>
                 </div>
             </div>
@@ -253,7 +268,6 @@
             <a href="https://www.linkedin.com/in/amaan-siddiqui-856a2a290/" target="_blank"><i
                     class="fab fa-linkedin"></i></a>
             <a href="https://github.com/amaanbkn" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
     </footer>
 
