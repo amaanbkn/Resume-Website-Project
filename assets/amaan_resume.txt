@@ -1,0 +1,53 @@
+Amaan Siddiqui                                                      +91-9782648786  
+  : amaansiddiqui014@gmail.com  
+  Github : https://github.com/amaanbkn   
+  Linkedin : https://www.linkedin.com/in/amaan -siddiqui -856a2a290/  
+  Portfolio Website : https://amaanbkn.github.io/AmaanPortfolioWebsite.github.io/                                                                              
+SUMMARY   
+Greetings! I Amaan, a data enthusiast  building foundational skills in data science and analytics, with hands -on 
+project experience in Machine Learning  and Deep Learning . I’m excited about leveraging data to unlock insights 
+and drive decision -making. Known for my strong communication abilities , I aim to bridge technical analysis with 
+clear, impactful storytelling.  
+  
+EXPERIENCE   
+    Freelance Data Scientist  | Self -Employed  | Bengaluru, India | May 2023  – Present  
+ Designed and implemented Machine Learning models for various clients to get business  insights . 
+ Conducted end -to-end data analysis, from data cleaning and preprocessing to visualization and insight 
+generation, using Python (Pandas, Matplotlib ,Seaborn ). 
+ 
+PERSONAL  PROJECTS   
+    Stocks Prediction :  https://github.com/amaanbkn/Stocks -Price -Prediction                                                                      
+    Developed a time -series forecasting model using an LSTM neural network that achieved 94% accuracy  
+    in predicting future closing prices for MSFT.  
+     Skills :  Python, PyTorch  , Pandas  , NumPy  , Scikit -learn  , Matplotlib  , yfinance  
+ 
+Crop Classification Project: https://github.com/amaanbkn/Crop -Classification -Project  
+   Engineered a Convolutional Neural Network (CNN) in PyTorch to classify crop images, achieving a  
+   92% validation accuracy  across 10 distinct crop categories.  
+    Skills:  Image Classification , Pandas , PyTorch  
+ 
+  Data -Pulse App  : https://github.com/amaanbkn/Data -Pulse -app 
+  Integrated 5+ data science modules , allowing non -technical users to upload a CSV and instantly  
+  perform  forecasting (Prophet), correlation analysis, and Market Basket Analysis.  
+    Skills : Pandas, NumPy    , Scikit -learn  , Prophet  , Seaborn  , Linear Regression   
+      
+TECHNICAL  SKILLS  AND INTERE STS 
+Languages : Python  , SQL  ,HTML , CSS  
+Frameworks  and Tools : Pandas  , XGBoost  , Scikit -learn  , PyTorch  , Prophet, Streamlit  , GitHub  
+Areas  of Interest : Data Engineering , Business Intelligence , MLOps  
+ 
+EDUCATION   
+  Don Bosco Institute of Technology  , Bengaluru  , Karnataka  , India                 September  2023  - August  2027  
+Branch -CSE | Average CGPA: 8.25            
+  
+  Bikaner Boys School  , Bikaner , Rajasthan, India                    Febr uary 2011 - July 2023  
+    CBSE(Class XII),  Aggregate: 79%   
+  
+POSITIONS  OF RESPONSIBILITY  
+Student Coordinator  – ‘Vismay’  College Fest (2023) : Led a team of students in organizing and executing the 
+annual college fest, ensuring smooth coordination and successful event delivery.  
+  Participant  – VTU Fest (Extempore Competition) :  Participated in the 2024 extempore speaking event , showcasing  
+  quick -thinking and effective communication skills.  
+ 
+ 
+ 
